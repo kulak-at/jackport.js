@@ -1,0 +1,19 @@
+{
+  "name": "jackport.js",
+  "version": "0.1.0",
+  "description": "JackPort.js - Library for handling messages over Serial Port for both Node.js and Chrome Apps.",
+  "main": "jackport.js",
+  "author": "Kacper Kula <kulak@kulak.at>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-uglify-es": "^0.0.1"
+  },
+  "dependencies": {
+    "serialport": "^6.2.0"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  }
+}
