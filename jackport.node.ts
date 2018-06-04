@@ -3,14 +3,14 @@ import JackPortAbstract from './jackport.abstract';
 let SerialPort = null;
 import { ab2str }from './utils';
 
-export default class JackPortNode extends JackPortAbstract {
-    constructor(path) {
+export class JackPortNode extends JackPortAbstract {
+    constructor(path: string) {
         super(path);
         SerialPort = require('serialport');
         this._connect();
     }
 
-    _connect() {
+    _connect(): void {
         this._port = new SerialPort(this._path);
 
         this._port.on('data', (binData) => {
@@ -19,7 +19,7 @@ export default class JackPortNode extends JackPortAbstract {
         })
     }
 
-    sendMessage(message) {
+    sendMessage(message: string): void {
         this._port.write(message);
     }
 }

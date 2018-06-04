@@ -11,6 +11,7 @@
     "rollup-plugin-uglify-es": "^0.0.1"
   },
   "dependencies": {
+    "rollup-plugin-typescript": "^0.8.1",
     "serialport": "^6.2.0"
   },
   "scripts": {

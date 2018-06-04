@@ -1,5 +1,5 @@
-import {JackPortChrome} from "./jackport.chrome.js";
-import JackPortNode from "./jackport.node.js";
+import {JackPortChrome} from "./jackport.chrome";
+import {JackportNode} from "./jackport.node";
 
 let JackPort = JackPortNode;
 
