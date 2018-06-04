@@ -1,6 +1,6 @@
 {
   "name": "jackport.js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JackPort.js - Library for handling messages over Serial Port for both Node.js and Chrome Apps.",
   "main": "jackport.js",
   "author": "Kacper Kula <kulak@kulak.at>",
