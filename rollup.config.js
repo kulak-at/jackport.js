@@ -5,7 +5,8 @@ export default {
     input: 'jackport.js',
     output: {
         file: 'dist/jackport.js',
-        format: 'cjs'
+        format: 'umd',
+        name: 'JackPort'
     },
     plugins: [
         resolve({

@@ -1,4 +1,4 @@
-import JackPort from '../../jackport.js';
+import JackPort from './jackport.js';
 
 const port = new JackPort('/dev/ttyACM0');
 
