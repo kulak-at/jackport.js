@@ -1,7 +1,7 @@
 import JackPortAbstract from './jackport.abstract';
 import { ab2str, str2ab } from "./utils";
 
-export class JackPortChrome extends JackPortAbstract {
+export default class JackPortChrome extends JackPortAbstract {
     constructor(path: string) {
         super(path);
         this._messageListener = this._messageListener.bind(this);

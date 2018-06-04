@@ -3,7 +3,7 @@ import JackPortAbstract from './jackport.abstract';
 let SerialPort = null;
 import { ab2str }from './utils';
 
-export class JackPortNode extends JackPortAbstract {
+export default class JackPortNode extends JackPortAbstract {
     constructor(path: string) {
         super(path);
         SerialPort = require('serialport');
